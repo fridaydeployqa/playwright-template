@@ -1,4 +1,4 @@
-# Playwright Test Template
+# Playwright Template
 
 ## Overview
 
@@ -48,12 +48,12 @@ You can set environment variables in several ways:
 
 2. Set inline when running tests:
    ```bash
-   URL=https://your-site.com npm test
+   URL=https://fridaydeployqa.com/ npm test
    ```
 
 3. Create a `.env` file in the project root:
    ```
-   URL=https://your-site.com
+   URL=https://fridaydeployqa.com/
    ```
 
 ## Getting Started
@@ -134,7 +134,7 @@ Our unique value proposition:
 - Full ownership of your test code
 - No vendor lock-in
 
-[Book a 15-min call](https://fridaydeployqa.com) to see if we're a fit for your team.
+[Book a 15-min call](https://calendar.app.google/qvangYP7CZKqRXXm9) to see if we're a fit for your team.
 
 ## License
 
