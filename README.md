@@ -1,4 +1,4 @@
-# Playwright Template
+# Playwright Test Template
 
 ## Overview
 
@@ -43,17 +43,17 @@ You can set environment variables in several ways:
 
 1. Export in your shell:
    ```bash
-   export URL=https://fridaydeployqa.com/
+   export URL=https://your-site.com
    ```
 
 2. Set inline when running tests:
    ```bash
-   URL=https://fridaydeployqa.com/ npm test
+   URL=https://your-site.com npm test
    ```
 
 3. Create a `.env` file in the project root:
    ```
-   URL=https://fridaydeployqa.com/
+   URL=https://your-site.com
    ```
 
 ## Getting Started
@@ -113,6 +113,28 @@ test('should display correct heading', async ({ page }) => {
 - [API Reference](https://playwright.dev/docs/api/class-playwright)
 - [Best Practices Guide](https://playwright.dev/docs/best-practices)
 - [Community Discord](https://playwright.dev/community/discord)
+
+## Need Help With Playwright Migration?
+
+This template is maintained by [Friday Deploy](https://fridaydeployqa.com), a specialized Playwright migration service that helps teams move away from:
+- Flaky Selenium tests
+- Expensive SaaS testing tools ($15-30K/year)
+- Vendor-locked testing platforms
+- Costly QA services
+
+We offer a 4-week migration sprint that includes:
+1. **Week 1:** Audit + migration plan with baseline metrics
+2. **Week 2:** Playwright framework setup in your repo
+3. **Week 3:** Parallel run of top 20 flows
+4. **Week 4:** Handoff workshop + playbook
+
+Our unique value proposition:
+- Fixed-fee starting at $8K (or 50% of your current license)
+- Friday Deploy Guarantee: deploy on any Friday within 60 days, get 5% back
+- Full ownership of your test code
+- No vendor lock-in
+
+[Book a 15-min call](https://fridaydeployqa.com) to see if we're a fit for your team.
 
 ## License
 
